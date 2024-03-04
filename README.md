@@ -13,17 +13,17 @@ Runs the app in the development mode. Open http://localhost:3000 to view it in t
 
 ## Backend Configuration
 
-#### In Database file
+### In Database file
 Replace the mongoDB connection string with your own database URI.
 
 process.env.MONGODB_URI -->> {your_database_uri}
 
-#### JWT Secret
-Replace  the jwtSecret key with your own secret key.
+### JWT Secret
+Replace  the jwtSecret key with your own secret key.    
 jwtSecret: "YOUR_SECRET_KEY"
 
 
-#### Server Port
+### Server Port
 Change server port number from process.env.PORT = '3001' to process.env.PORT = '{your desired port number}'
 
 
