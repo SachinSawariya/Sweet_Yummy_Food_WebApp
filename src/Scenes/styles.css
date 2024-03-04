@@ -1,0 +1,39 @@
+.main_container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+   
+  
+  
+  
+  }
+  form{
+    width: 40%;
+   background-color: blueviolet;
+   padding: 2rem;
+   border-radius: .5rem;
+   box-shadow: 2px 6px 10px 2px  rgb(147, 120, 172);
+  }
+  .container input{
+    background-color: white;
+    
+  }
+  label{
+    color: black;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-family: monospace;
+  }
+  
+  .container input:hover{
+    background-color: beige;
+    color: gray;
+  }
+  
