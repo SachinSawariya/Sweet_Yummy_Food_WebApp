@@ -1,0 +1,54 @@
+// sample data which store on database
+
+
+
+Food_Category = [
+    {
+        "_id":{"$oid":"6505af2acd23825d41ddb836"},
+        "CategoryName":"Pizza"
+    },
+    {
+        "_id":{"$oid":"6505af2acd23825d41ddb837"},
+        "CategoryName":"Biryani/Rice"
+    },
+    {
+        "_id":{"$oid":"6505af2acd23825d41ddb838"},
+        "CategoryName":"Starter"
+    }
+]
+
+
+// --------------------------------------------------------------
+
+
+
+Food_Items = [
+
+    {   "_id":{"$oid":"6505ae3dccc8b33081b18781"},
+        "CategoryName":"Biryani/Rice",
+        "name":"Chicken Biryani",
+        "img":"https://cdn.pixabay.com/photo/2019/11/04/12/16/rice-4601049__340.jpg",
+        "options":[{"half":"170","full":"300"}],
+        "description":"Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "_id":{"$oid":"6505ae3dccc8b33081b18782"},
+        "CategoryName":"Biryani/Rice",
+        "name":"Chicken Fried Rice",
+        "img":"https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMGZyaWVkJTIwcmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "options":[{"half":"130","full":"220"}],
+        "description":"Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    },
+    {
+        "_id":{"$oid":"6505ae3dccc8b33081b18789"},
+        "CategoryName":"Starter",
+        "name":"Chicken Tikka",
+        "img":"https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2hpY2tlbiUyMHRpa2thfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "options":[{"half":"170","full":"300"}],
+        "description":"Made using Indian masalas and Basmati rice. Barbequed pieces of Paneer/Chicken/Mutton were added."
+    }
+
+
+    // same as a multiple objects.....
+
+]
