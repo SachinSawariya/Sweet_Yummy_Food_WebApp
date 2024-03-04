@@ -1,5 +1,5 @@
-# This is a Food delivery web app project using MERN Stack.
-# It allows users to create an account, login and place orders for food items as per your choice. 
+### This is a Food delivery web app project using MERN Stack.
+### It allows users to create an account, login and place orders for food items as per your choice. 
 
 # Getting Started with Create React App
 
